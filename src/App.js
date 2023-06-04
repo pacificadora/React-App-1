@@ -13,7 +13,7 @@ const App = () => {
     return(
       <div className="refresh">
         <h2>No Tours Left</h2>
-        <button onClick={()=>setTours(data)}>
+        <button className="btn-white" onClick={()=>setTours(data)}>
           refresh
         </button>
       </div>
